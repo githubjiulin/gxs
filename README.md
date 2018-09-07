@@ -1,2 +1,0 @@
-# gxs
-for company test
