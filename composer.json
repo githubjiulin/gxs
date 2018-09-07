@@ -1,0 +1,32 @@
+{
+    "name":             "gxs-base/base service",
+    "description":      "guxiansheng base sdk",
+    "keywords":         ["base", "guxiansheng", "sdk"],
+    "homepage":         "http://www.guxiansheng.cn/",
+    "license":          "MIT",
+    "authors": [
+        {
+            "name":         "lves lv",
+            "email":        "lves.lv@qq.com",
+            "role":         "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ext-curl": "*",
+        "nategood/httpful": "*"
+    },
+    "autoload" : {
+        "psr-4": {
+            "BaseService\\": "src/BaseService/",
+            "BaseService\\Exceptions\\": "src/BaseService/Exceptions",
+            "BaseService\\BaseS\\": "src/BaseService/BaseS"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
